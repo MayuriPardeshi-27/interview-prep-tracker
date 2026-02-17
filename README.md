@@ -19,7 +19,7 @@ A simple web application to help you plan, track, and monitor your interview pre
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript (Vanilla JS)
+- JavaScript
 - LocalStorage for saving data
   
 ## Author
