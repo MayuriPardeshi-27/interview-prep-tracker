@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Interview Study Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>My Interview Study Tracker</h2>
+
+    <form id="studyForm" class="study-form">
+      <input type="text" id="topicInput" placeholder="Enter study topic">
+      
+      <select id="statusSelect">
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+      </select>
+
+      <button type="submit">Add Study Topic</button>
+    </form>
+
+    <p class="note">This tracker helps me plan and monitor my interview preparation.</p>
+
+    <ul id="topicList"></ul>
+
+    <p id="progressText">Your progress: 0 of 0 topics completed</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
